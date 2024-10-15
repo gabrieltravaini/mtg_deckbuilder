@@ -1,14 +1,17 @@
 import { useState } from 'react'
-
+import BuscaCarta from './components/BuscaCarta'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
+    <div>
     <h1 className="text-3xl font-bold underline">
       TESTE TAILWIND
     </h1>
+    <BuscaCarta/>
+    </div>
   )
+  
+
 }
 
 export default App
